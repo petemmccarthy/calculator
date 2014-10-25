@@ -18,4 +18,7 @@ describe 'Calculator' do
     expect(subtract_a_number_from_another(9,5)).to eq 4
   end
 
+  it 'can multipy 3 by 4' do
+    expect(multiply_two_numbers(3,4)).to eq 12
+  end
 end
