@@ -21,4 +21,9 @@ describe 'Calculator' do
   it 'can multipy 3 by 4' do
     expect(multiply_two_numbers(3,4)).to eq 12
   end
+
+  it 'can multipy 7 by 8' do
+    expect(multiply_two_numbers(7,8)).to eq 56
+  end
+  
 end
