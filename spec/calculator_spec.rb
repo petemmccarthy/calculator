@@ -25,5 +25,13 @@ describe 'Calculator' do
   it 'can multipy 7 by 8' do
     expect(multiply_two_numbers(7,8)).to eq 56
   end
-  
+
+  it 'can divide 8 by 2' do
+    expect(divide_two_numbers(8,2)).to eq 4
+  end
+
+  it 'can divide 9 by 3' do
+    expect(divide_two_numbers(9,3)).to eq 3
+  end
+
 end
