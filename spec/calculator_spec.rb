@@ -50,6 +50,10 @@ describe 'Calculator' do
     expect(divide_two_numbers(25,5)).not_to eq 12
   end
 
+  it 'raises error if someone tries to divide by zero' do
+    expect(divide_two_numbers(4,0)).to eq "Can't divide by zero!"
+    expect(divide_two_numbers(0,6)).to eq "Can't divide by zero!"
+  end
 end
 
 
